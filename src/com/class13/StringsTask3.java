@@ -18,6 +18,7 @@ public class StringsTask3 {
 		case "boy":
 			babyName=dad.substring(0,3)+mom.substring(mom.length()-2,mom.length());
 			System.out.println("Suggested baby name: "+babyName.toUpperCase());
+			
 			break;
 		case "girl":
 			babyName=mom.substring(0,2)+dad.substring(dad.length()-3,dad.length());
@@ -26,6 +27,7 @@ public class StringsTask3 {
 		default:
 			System.out.println("it's not a boy nor girl");
 		}
+		
 	}
 
 }
