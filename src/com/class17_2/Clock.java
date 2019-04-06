@@ -1,0 +1,31 @@
+package com.class17_2;
+
+public class Clock {
+
+	public static void main(String[] args) {
+		Clock clock1=new Clock();
+		clock1.printTime();
+	}
+	void printTime () {
+		// 24 hours, 60 minutes
+
+				for (int h=0; h<24;h++) {
+					if (h<10) {
+					for (int m=0; m<60; m++) {
+						if (m<10) {
+						System.out.println("0"+h+":0"+m);
+					}else {
+						System.out.println("0"+h+":"+m);}
+					}
+					}else {
+						for (int m=0; m<60; m++) {
+							if (m<10) {
+							System.out.println(h+":0"+m);
+						}else {
+							System.out.println(h+":"+m);}
+						}
+					}
+				}
+	}
+
+}
