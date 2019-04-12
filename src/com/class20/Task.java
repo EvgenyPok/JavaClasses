@@ -34,6 +34,11 @@ public class Task {
 		}
 		
 	}
+	
+	private String[] tornWords(String s) {
+		return s.split(" ");
+	}
+	
 	public static boolean isPalindrome(String s) {
 		String reverse = "";
 		for (int i=s.length()-1;i>=0;i--) {
@@ -47,7 +52,5 @@ public class Task {
 		}
 	}
 	
-	public String[] tornWords(String s) {
-		return s.split(" ");
-	}
+	
 }
