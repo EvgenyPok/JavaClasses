@@ -15,8 +15,8 @@ public class TestSyntaxStudents {
 //      
 //      student2.getStudentDetails();
       
-      SyntaxStudent student1=new SyntaxStudent(“Asha”, “Noman”);
-      student1.getStudentDetails();
+		SyntaxStudent student1=new SyntaxStudent("Aisha", "Maria");
+		student1.getStudentDetails();
       
       SyntaxStudent student2=new SyntaxStudent(“Mustafa”, “Ozturk”);
       student2.getStudentDetails();
