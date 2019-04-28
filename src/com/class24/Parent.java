@@ -9,11 +9,4 @@ public class Parent {
 		System.out.println("Parents work");
 	}
 }
-class Child extends Parent{
-	public void love() {
-		System.out.println("Child love");
-	}
-	public void cry() {
-		System.out.println("Child cry");
-	}
-}
+

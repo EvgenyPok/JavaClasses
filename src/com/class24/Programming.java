@@ -1,11 +1,11 @@
 package com.class24;
 
-public class Programming {
+ class Programming {
 
-	public Programming () {
+	private Programming () {
 		System.out.println("I love programming languages");
 	}
-	public Programming (String str) {
+	private Programming (String str) {
 		System.out.println("I love "+str);
 	}
 	
