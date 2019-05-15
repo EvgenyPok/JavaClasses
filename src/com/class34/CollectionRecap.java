@@ -11,5 +11,11 @@ public static void main(String[] args) {
 	
 	System.out.println(list);
 	
+	Set<String>set=new HashSet<>();
+	set.add("Java");
+	set.add("is");
+	set.add("fun");
+	set.add("and");
+	set.add("logic based");
 }
 }
